@@ -91,7 +91,7 @@ const Index = () => {
     <div className="min-h-screen bg-white">
       <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
-          <h1 className="text-2xl font-bold tracking-tight">АД</h1>
+          <h1 className="text-2xl font-bold tracking-tight">НМ</h1>
           <div className="flex gap-8">
             {['home', 'about', 'services', 'portfolio'].map((section) => (
               <button
@@ -119,10 +119,10 @@ const Index = () => {
                 Графический дизайнер
               </p>
               <h1 className="text-7xl lg:text-8xl font-bold mb-6 leading-none">
-                Анна<br />Дизайнер
+                Наталья<br />Мануйлова
               </h1>
               <p className="text-xl text-muted-foreground mb-8 max-w-lg font-light">
-                Создаю визуальные решения, которые работают. Минимализм, функциональность и внимание к деталям.
+                Превращаю идеи в визуальные истории. Создаю дизайн, который вдохновляет и запоминается.
               </p>
               <Button 
                 onClick={() => scrollToSection('portfolio')}
@@ -135,7 +135,7 @@ const Index = () => {
             <div className="relative animate-fade-in">
               <div className="aspect-square bg-gray-100 rounded-none overflow-hidden">
                 <img 
-                  src="https://cdn.poehali.dev/projects/1e026b89-cc6b-4c7a-8ea8-d00450a1eab0/files/fe42f735-4e72-44c2-bf9d-cfe6488a0bff.jpg"
+                  src="https://cdn.poehali.dev/projects/1e026b89-cc6b-4c7a-8ea8-d00450a1eab0/files/1a97ce59-b79a-4642-b2e6-984ab0ac810f.jpg"
                   alt="Design work"
                   className="w-full h-full object-cover"
                 />
@@ -150,27 +150,25 @@ const Index = () => {
           <h2 className="text-5xl font-bold mb-12">Обо мне</h2>
           <div className="space-y-6 text-lg text-muted-foreground font-light leading-relaxed">
             <p>
-              Привет! Я Анна — графический дизайнер с фокусом на минимализм и чистоту форм. 
-              Верю, что хороший дизайн должен быть простым, но не упрощённым.
+              Привет! Я Наталья Мануйлова — графический дизайнер, который верит в силу визуальной коммуникации.
             </p>
             <p>
-              Работаю с брендами и стартапами, помогая создавать визуальную идентичность, 
-              которая говорит о ценностях компании и резонирует с аудиторией.
+              Моя страсть — создавать дизайн, который не просто красив, но и рассказывает историю бренда. 
+              Работаю с каждым проектом индивидуально, погружаясь в суть бизнеса и его аудиторию.
             </p>
             <p>
-              В моей работе главное — баланс между эстетикой и функциональностью. 
-              Каждый проект начинается с глубокого анализа задачи и заканчивается решением, 
-              которое работает.
+              Специализируюсь на айдентике, упаковке и digital-дизайне. Помогаю брендам выделиться 
+              на рынке через продуманный и искренний визуальный язык.
             </p>
           </div>
           <div className="mt-16 grid grid-cols-3 gap-12">
             <div>
-              <p className="text-5xl font-bold mb-2">50+</p>
+              <p className="text-5xl font-bold mb-2">80+</p>
               <p className="text-muted-foreground">Проектов</p>
             </div>
             <div>
-              <p className="text-5xl font-bold mb-2">3+</p>
-              <p className="text-muted-foreground">Года опыта</p>
+              <p className="text-5xl font-bold mb-2">5+</p>
+              <p className="text-muted-foreground">Лет опыта</p>
             </div>
             <div>
               <p className="text-5xl font-bold mb-2">100%</p>
@@ -267,7 +265,7 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-2">Свяжитесь со мной</h3>
-              <p className="text-muted-foreground">hello@annadesigner.com</p>
+              <p className="text-muted-foreground">hello@manuilova.design</p>
             </div>
             <div className="flex gap-6">
               <a href="#" className="text-foreground hover:text-accent transition-colors">
@@ -282,7 +280,7 @@ const Index = () => {
             </div>
           </div>
           <div className="mt-12 pt-8 border-t border-gray-200 text-center text-sm text-muted-foreground">
-            © 2026 Анна Дизайнер. Все права защищены.
+            © 2026 Наталья Мануйлова. Все права защищены.
           </div>
         </div>
       </footer>
